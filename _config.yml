@@ -4,3 +4,6 @@ name: "Sophie Kaleba"
 title: "Sophie Kaleba"
 
 permalink: /:year/:month/:day/:title
+
+plugins:
+  - jekyll-target-blank
