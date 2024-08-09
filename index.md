@@ -7,7 +7,7 @@ title: About
 
 Hello, I'm Sophie. I have been researching about programming languages at [University of Kent (UK)](https://www.kent.ac.uk/), part of the [Programming Languages and Systems](https://research.kent.ac.uk/programming-languages-systems/) Group, since 2019, the start of my PhD.
 
-I am interested in improving the performance of dynamic languages and their associated tooling, analysing their behaviour and runtime to find new ways to optimise them..
+I am interested in improving the performance of dynamic languages and their associated tooling, analysing their behaviour and runtime to find new ways to optimise them.
 
 I have just submitted my PhD dissertation, and am now looking for new professional opportunities revolving around programming languages. I briefly describe my current and past projects in [Research](/research).
 
