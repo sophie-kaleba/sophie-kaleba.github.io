@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="../css/main.css">
+			<div class="wrap">
+				<title>{{ page.title }}</title>
+				<!-- link to main stylesheet -->
+				<link rel="stylesheet" type="text/css" href="../css/main.css">
+			</div>
 		</head>
+
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+			<div class="wrap">
+				<nav class="site-nav">
+					<div class="trigger">
+						<ul>
+							{% assign sorted_pages = site.pages | sort:"order" %}
+							{% for page in sorted_pages %}
+								{% if page.title == "CV" %}
+								<a class="page-link" href="{{ page.cv_url | prepend: site.baseurl }}">{{ page.title }}</a>
+								{% elsif page.title %}
+								<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+								{% endif %}
+							{% endfor %}
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+			<div class="wrap">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
 
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:sophie.kaleba@gmail.com">email</a></li>
-				</ul>
-			</footer>
+			{% include footer.html %}
 		</body>
 	</html>
