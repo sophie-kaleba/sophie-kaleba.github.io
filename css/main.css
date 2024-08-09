@@ -29,10 +29,14 @@ ul a {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #185cda;
 }
 a:hover {
     text-decoration: underline;
+}
+a.page-link {
+  text-decoration: none;
+  color: #686c74da;
 }
 h1 {
     font-size: 3em;
@@ -73,7 +77,7 @@ ul.posts li {
 
 .site-footer {
     border-top: 1px solid #e8e8e8;
-    padding: 30px 0;
+    padding: 20px 0;
   }
   
   .footer-heading {
@@ -83,7 +87,9 @@ ul.posts li {
     margin-bottom: 15px;
   }
   
-  .site-footer .column { float: left; margin-bottom: 15px; }
+  .site-footer .column { 
+    float: left; 
+    margin-bottom: 15px; }
   
   .footer-col-1 {
     width: 270px; /*fallback*/
