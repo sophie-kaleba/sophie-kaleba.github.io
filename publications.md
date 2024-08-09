@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Publications
-order: 3
+order: 4
 ---
 
 - **(under review)** Kaleba, S. Context-Guided Splitting: Optimising method dispatch in dynamic languages. *PhD dissertation*, 2024
