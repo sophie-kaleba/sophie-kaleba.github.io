@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<div class="wrap">
-				<title>{{ page.title }}</title>
-				<!-- link to main stylesheet -->
-				<link rel="stylesheet" type="text/css" href="../css/main.css">
-			</div>
+			<title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="../css/main.css">
 		</head>
 
 		<body>
+
 			<div class="wrap">
 				<nav class="site-nav">
 					<div class="trigger">
