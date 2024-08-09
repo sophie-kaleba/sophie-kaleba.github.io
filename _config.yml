@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
+title: Sophie Kaleba
+url: "http://sophie-kaleba.github.io"
 
-permalink: /blog/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
