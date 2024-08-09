@@ -9,7 +9,7 @@ Hello, I'm Sophie. I have been researching about programming languages at [Unive
 
 I am interested in improving the performance of dynamic languages and their associated tooling, analysing their behaviour and runtime to find new ways to optimise them.
 
-I have just submitted my PhD dissertation, and am now looking for new professional opportunities revolving around programming languages. I briefly describe my current and past projects in [Research](/research).
+I have just submitted my PhD dissertation, and am now looking for new professional opportunities revolving around programming languages. I briefly describe my current and past projects in [Projects](/research).
 
 
 
