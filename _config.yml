@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
-title: Sophie Kaleba
 url: "http://sophie-kaleba.github.io"
+name: "Sophie Kaleba"
+title: "Sophie Kaleba"
 
 permalink: /:year/:month/:day/:title
