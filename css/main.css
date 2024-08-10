@@ -17,7 +17,7 @@ div.container {
     padding-right: 30px;
     padding-left: 30px;
 }
-nav ul, footer ul, nav.site-nav {
+nav ul, nav.site-nav {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 5px;
     list-style: none;
@@ -77,7 +77,6 @@ ul.posts li {
 
 .site-footer {
     border-top: 1px solid #e8e8e8;
-    padding: 20px 0;
   }
   
   .footer-heading {
@@ -88,34 +87,20 @@ ul.posts li {
   }
   
   .site-footer .column { 
-    float: left; 
     margin-bottom: 15px; }
   
   .footer-col-1 {
-    width: 270px; /*fallback*/
-    width: -webkit-calc(35% - 10px);
-    width: -moz-calc(35% - 10px);
-    width: -o-calc(35% - 10px);
-    width: calc(35% - 10px);
-    margin-right: 10px
+    flex: 1;
   }
   .footer-col-2 {
-    width: 175px; /*fallback*/
-    width: -webkit-calc(23.125% - 10px);
-    width: -moz-calc(23.125% - 10px);
-    width: -o-calc(23.125% - 10px);
-    width: calc(23.125% - 10px);
-    margin-right: 10px
+    flex: 1;
   }
-  .footer-col-3 {
-    width: 335px; /*fallback*/
-    width: -webkit-calc(41.875%);
-    width: -moz-calc(41.875%);
-    width: -o-calc(41.875%);
-    width: calc(41.875%);
-  }
-  
-  .site-footer ul { list-style: none; }
+ 
+  .site-footer ul {     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 5px;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;}
   
   .site-footer li,
   .site-footer p {
@@ -131,6 +116,16 @@ ul.posts li {
     height: 16px;
     position: relative;
     top: 3px;
+  }
+
+  .wrap-footer {
+    max-width: 800px;
+    padding: 0 30px;
+    margin: 0 auto;
+    zoom: 1;
+    display:flex;
+    align-items: center;
+    align-content: center;
   }
 
 /* media queries */
@@ -152,7 +147,7 @@ ul.posts li {
   
     .site-footer .column.footer-col-3 {
       width: auto;
-      float: none;
+      /* float: none; */
       clear: both;
     }
   
@@ -208,7 +203,6 @@ ul.posts li {
     .post-content ol { padding-left: 10px; }
   
     .site-footer .column {
-      float: none;
       clear: both;
       width: auto;
       margin: 0 0 15px; }
