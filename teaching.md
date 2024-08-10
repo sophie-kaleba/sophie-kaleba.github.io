@@ -4,6 +4,8 @@ title:  Teaching
 order: 3
 ---
 
+# Teaching
+
 During my years at [University of Kent](https://www.kent.ac.uk), I taught the following modules:
 
 - [COMP3200: Introduction to Object-Oriented Programming](https://www.kent.ac.uk/courses/modules/module/COMP3200)
