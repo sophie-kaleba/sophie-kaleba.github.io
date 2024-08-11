@@ -5,6 +5,7 @@ order: 2
 ---
 
 # Current projects
+
 ## Context-Guided Splitting
 [Context-Guided Splitting](https://github.com/sophie-kaleba/truffleruby){:target="_blank" rel="noopener"} as part of TruffleRuby, a Ruby implementation on top of GraalVM.  
 Context-Guided Splitting is a compiler optimisation aiming to improve memory usage and the time spent compiling at run time. This project is still under development, but is yielding
@@ -20,6 +21,7 @@ It produces statistics and summary tables that can be used as a starting point t
 I used this tool to guide the implementation of Context-Guided Splitting. It consists in an instrumented version of TruffleRuby, which provides execution traces that are then analysed by a tool developed in R, the statistics programming language.
 
 # Past projects
+
 ## Fine-grained VM profiler
 Squeak/Pharo, two Smalltalk implementations, use a sampling profiler to identify where most of the execution time is spent. It provides data detailing in which user methods the time is spent, but also in which VM methods the time is spent.  
 
