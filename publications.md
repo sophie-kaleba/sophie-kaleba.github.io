@@ -6,7 +6,7 @@ order: 4
 
 # Publications
 
-- **(under review)** Kaleba, S. Context-Guided Splitting: Optimising method dispatch in dynamic languages. *PhD dissertation*, 2024
+- Kaleba, S. [Context-Guided Splitting: Optimising method dispatch in dynamic languages](https://kar.kent.ac.uk/109418/){:target="_blank" rel="noopener"}. *PhD dissertation*, 2024
 
 - Burchell, H., Larose, O., Kaleba, S., & Marr, S. [Don’t Trust Your Profiler: An Empirical Study on the Precision and Accuracy of Java Profilers](https://dl.acm.org/doi/abs/10.1145/3617651.3622985){:target="_blank" rel="noopener"}, *Proceedings of the 20th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes* (pp. 100-113), 2023  
 [[VIDEO]](https://www.youtube.com/watch?v=lR5EAl_hYzs){:target="_blank" rel="noopener"}
